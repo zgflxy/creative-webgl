@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050108" />
+    <meta name="description" content="一颗会爆散又重聚的 3D 粒子爱心" />
+    <title>For You · Particle Heart</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="scene-wrap">
+      <canvas id="heart-canvas" aria-label="一颗由发光粒子组成的立体爱心"></canvas>
+      <div class="veil" aria-hidden="true"></div>
+      <section class="envelope-stage" aria-label="打开信件">
+        <button id="open-letter" class="envelope" type="button" aria-label="打开这封信">
+          <img class="envelope-image" src="./assets/midnight-envelope-v2.png" alt="一封带爱心火漆的黑色信封" />
+        </button>
+        <p class="letter-prompt">你有一封未读来信<br /><span>CLICK TO OPEN</span></p>
+      </section>
+      <header class="signature" aria-label="页面标识"><span>FOR</span><i>♥</i><span>YOU</span></header>
+      <section class="message" aria-live="polite">
+        <p class="kicker">A LITTLE PIECE OF MY UNIVERSE</p>
+        <h1>把心意，<br /><em>送给你。</em></h1>
+        <p class="subcopy">每一粒光，都在奔向你。</p>
+      </section>
+      <footer><span class="live-dot"></span><span id="state">LOVE IS IN THE AIR</span></footer>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
