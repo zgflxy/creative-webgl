@@ -8,7 +8,8 @@
 
 | # | Demo | 简介 | 在线体验 |
 | --- | --- | --- | --- |
-| 01 | Particle Heart | 打开信封，让发光粒子构成的 3D 爱心在夜色中显现；点击或按空格可触发爆散与重聚。 | [进入 Demo →](https://zgflxy.github.io/creative-webgl/01-particle-heart/) |
+| 01 | Particle Heart | 3D 粒子爱心互动。 | [进入 Demo →](https://zgflxy.github.io/creative-webgl/01-particle-heart/) |
+| 02 | Into the Milky Way | 点击进入星河。 | [进入 Demo →](https://zgflxy.github.io/creative-webgl/02-electric-two/) |
 
 ## 持续更新
 
@@ -17,6 +18,6 @@
 ```text
 creative-webgl/
 ├── 01-particle-heart/ # 01 · Particle Heart
-├── 02-next-demo/      # 下一个作品
+├── 02-electric-two/   # 02 · Into the Milky Way
 └── ...
 ```

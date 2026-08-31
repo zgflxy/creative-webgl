@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#030714" />
+    <meta name="description" content="点击封面，进入一片缓慢流动的星河" />
+    <title>Into the Milky Way</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="universe">
+      <canvas id="milky-way" aria-label="一片流动的星河"></canvas>
+      <section id="cover" class="cover" aria-label="进入星河">
+        <button id="enter" type="button" aria-label="点击进入星河">
+          <span class="cover-star" aria-hidden="true"><i></i></span>
+          <span class="cover-copy">在漫长的夜里，<b>借一束星光。</b></span>
+          <small>CLICK TO ENTER</small>
+        </button>
+      </section>
+      <section class="letter" aria-live="polite">
+        <p class="eyebrow">THE NIGHT HAS A THOUSAND DOORS</p>
+        <h1>愿你穿过漫长黑夜，<br /><em>仍能抵达自己的光。</em></h1>
+        <p class="signature">献给每一个抬头看过星空的人</p>
+      </section>
+      <button id="wish" class="wish" type="button" aria-label="许一个愿望"><span></span> MAKE A WISH</button>
+      <footer><span><i></i> THE STARS ARE LISTENING</span><span>MOVE THROUGH THE LIGHT</span></footer>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
