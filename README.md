@@ -6,25 +6,9 @@
 
 ## Demo Collection
 
-### 01 · Particle Heart
-
-<p align="center">
-  <a href="https://zgflxy.github.io/creative-webgl/heart-pulse/">
-    <img src="./heart-pulse/assets/midnight-envelope-v2.png" alt="Particle Heart：带爱心火漆的深色信封" width="720" />
-  </a>
-</p>
-
-一个由发光粒子构成的互动爱心。打开信封，让心意在夜色中显现；点击页面或按空格，粒子会随之爆散、重聚。
-
-<p align="center">
-  <a href="https://zgflxy.github.io/creative-webgl/heart-pulse/"><strong>进入 Demo →</strong></a>
-</p>
-
-## GitHub Pages
-
-所有 Demo 均通过 GitHub Pages 发布。当前作品的在线地址：
-
-[zgflxy.github.io/creative-webgl/heart-pulse](https://zgflxy.github.io/creative-webgl/heart-pulse/)
+| # | Demo | 简介 | 在线体验 |
+| --- | --- | --- | --- |
+| 01 | Particle Heart | 打开信封，让发光粒子构成的 3D 爱心在夜色中显现；点击或按空格可触发爆散与重聚。 | [进入 Demo →](https://zgflxy.github.io/creative-webgl/01-particle-heart/) |
 
 ## 持续更新
 
@@ -32,7 +16,7 @@
 
 ```text
 creative-webgl/
-├── heart-pulse/       # 01 · Particle Heart
-├── next-demo/         # 下一个作品
+├── 01-particle-heart/ # 01 · Particle Heart
+├── 02-next-demo/      # 下一个作品
 └── ...
 ```
