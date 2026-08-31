@@ -1,57 +1,38 @@
-# Particle Heart · 给你的粒子爱心
+# Creative WebGL
 
-一个零依赖的 WebGL 互动小作品：点击信封，一颗由上万颗发光粒子组成的 3D 爱心会在夜色中显现；再次点击页面（或按空格），爱心会爆散并重新聚合。
+一组持续更新的视觉网页实验。这里收集那些好看、可互动、值得点开的前端 Demo：粒子、光影、3D、动画，以及更多还在酝酿中的小宇宙。
+
+> 每个作品都是一个独立页面，可以直接在浏览器中打开体验。
+
+## Demo Collection
+
+### 01 · Particle Heart
 
 <p align="center">
-  <img src="./heart-pulse/assets/midnight-envelope-v2.png" alt="Particle Heart 首屏：带爱心火漆的深色信封" width="720" />
+  <a href="https://zgflxy.github.io/creative-webgl/heart-pulse/">
+    <img src="./heart-pulse/assets/midnight-envelope-v2.png" alt="Particle Heart：带爱心火漆的深色信封" width="720" />
+  </a>
 </p>
 
-<p align="center">点击信封后，进入粒子爱心互动场景。</p>
+一个由发光粒子构成的互动爱心。打开信封，让心意在夜色中显现；点击页面或按空格，粒子会随之爆散、重聚。
 
-## Demo
+<p align="center">
+  <a href="https://zgflxy.github.io/creative-webgl/heart-pulse/"><strong>进入 Demo →</strong></a>
+</p>
 
-本项目不需要构建步骤。在浏览器中直接打开 [heart-pulse/index.html](./heart-pulse/index.html) 即可体验。
+## GitHub Pages
 
-也可以在项目根目录启动任意静态文件服务器，例如：
+所有 Demo 均通过 GitHub Pages 发布。当前作品的在线地址：
 
-```bash
-npx serve .
-```
+[zgflxy.github.io/creative-webgl/heart-pulse](https://zgflxy.github.io/creative-webgl/heart-pulse/)
 
-随后访问 `http://localhost:3000/heart-pulse/`。
+## 持续更新
 
-## 互动方式
-
-| 操作 | 效果 |
-| --- | --- |
-| 点击信封 | 打开信件，显现粒子爱心 |
-| 移动鼠标／手指 | 让爱心随指针产生轻微动态偏移 |
-| 再次点击页面 | 触发粒子爆散与重聚 |
-| 空格键 | 未打开时打开信件；打开后触发爆散 |
-
-## 亮点
-
-- 原生 WebGL 绘制，未使用框架或第三方运行时依赖。
-- 约 6,800（移动端）至 11,500（桌面端）颗爱心粒子，另含星尘背景。
-- 自定义顶点与片元着色器，营造发光、呼吸和闪烁效果。
-- 针对触屏、键盘操作与减少动态效果偏好做了适配。
-
-## 项目结构
+后续 Demo 会以独立目录加入，并在本页持续收录。每个作品都尽量保持轻量、独立且开箱即用。
 
 ```text
-.
-└── heart-pulse/
-    ├── index.html               # 页面结构与文案
-    ├── main.js                  # WebGL 粒子、互动和动画逻辑
-    ├── style.css                # 页面布局、过渡与响应式样式
-    └── assets/
-        └── midnight-envelope-v2.png
+creative-webgl/
+├── heart-pulse/       # 01 · Particle Heart
+├── next-demo/         # 下一个作品
+└── ...
 ```
-
-## 技术栈
-
-HTML · CSS · JavaScript · WebGL（GLSL）
-
----
-
-为某个特别的人，送上一小片宇宙。 ♥
